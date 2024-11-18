@@ -1,0 +1,82 @@
+.header {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  
+  .logo img {
+    width: 160px;
+    height: auto;
+  }
+  
+  .title h1 {
+    font-size: 2.5em;
+    color: #f82200;
+  }
+  
+  .title p {
+    font-size: 1.2em;
+    color: #4caf50;
+    margin-top: 5px;
+  }
+  .buttons button {
+    padding: 10px 20px;
+    border-radius: 5PX;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .get-started {
+    background-color: #4caf50;
+    color: white;
+  }
+  .buttons butt.title-box {
+    border: 2px solid #4caf50; /* Border color */
+    padding: 20px; /* Padding inside the box */
+    border-radius: 8px; /* Rounded corners */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    text-align: center; /* Center the text */
+  }
+  .title-box {
+  border: 2px solid #4caf50; /* Border color */
+  padding: 20px; /* Padding inside the box */
+  border-radius: 8px; /* Rounded corners */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+  text-align: center; /* Center the text */
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+  .title-box:hover {
+    background-color: #f0f0f0; /* Light background on hover */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+  }
+  
+  .bold-title {
+    font-weight: bold; /* Bold the h1 text */
+  }
+  
+  .animated-text {
+    display: inline-block; /* Allows for animation */
+    overflow: hidden; /* Hides the overflow */
+    white-space: nowrap; /* Prevents text wrapping */
+    width: 0; /* Start width at 0 */
+    animation: typing 5s steps(30, end) forwards; /* Typing effect */
+  }
+  
+  @keyframes typing {
+    from {
+        width: 0; /* Start from width 0 */
+    }
+    to {
+        width: 100%; /* End at full width */
+    }
+  }

@@ -1,0 +1,87 @@
+/* Style for social icons */
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px; /* Adjust size as needed */
+    height: 40px; /* Adjust size as needed */
+    border-radius: 50%; /* Makes the icon circular */
+    background-color: #333; /* Background color for the circle */
+    text-decoration: none;
+    font-size: 20px; /* Adjust icon size */
+    color: #fff; /* Ensure the icon color is white */
+  }
+  
+  .social-icon i {
+    line-height: 40px; /* Centers the icon vertically */
+  }
+  
+  /* Style for news updates */
+  .news-updates {
+    background-color: #f0ad4e; /* Adjust background color as needed */
+    padding: 5px 0; /* Add padding for better spacing */
+  }
+  
+  .news-updates marquee {
+    color: #000; /* Color of the text inside marquee */
+    font-size: 1rem; /* Font size for the marquee text */
+  }
+
+/* ---------------------------------------------------- */
+
+
+  /* new top bar css  */
+  
+  .top-bar {
+    background-color: #d0e545;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: #333;
+  }
+  
+  .social-links a {
+    color: #333;
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  
+  .news-update {
+    font-weight: bold;
+  }
+  
+  .new-products {
+    color: #ff0c05;
+  }
+  
+  .helpline {
+    color: #333;
+    font-weight: bold;
+  }
+  .top-bar {
+    background-color: #bbe319; /* Change to your desired background color */
+    padding: 10px;
+    position: relative;
+    overflow: hidden; /* Hide overflow to keep it within the box */
+  }
+  
+  .news-update-wrapper {
+    display: flex;
+    white-space: nowrap; /* Prevent line breaks */
+    animation: scroll 20s linear infinite; /* Animation for scrolling */
+  }
+  
+  .news-update, .new-products, .helpline {
+    padding: 0 20px; /* Space between items */
+  }
+  
+  @keyframes scroll {
+    from {
+        transform: translateX(100%); /* Start from the right */
+    }
+    to {
+        transform: translateX(-100%); /* End at the left */
+    }
+  }

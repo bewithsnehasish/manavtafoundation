@@ -1,0 +1,41 @@
+/* Navbar.css */
+
+/* Default styling for nav links */
+.nav-link {
+    font-size: 25px !important; /* Default font size */
+    margin: 25px !important;
+    text-decoration: none; /* Remove underline */
+  }
+  
+  /* Styling for active nav link */
+  .nav-link.active {
+    font-weight: bold; /* Emphasize active link */
+    color: #007bff; /* Change text color for active link */
+    border-bottom: 2px solid #007bff; /* Underline or border effect */
+  }
+
+  /* new css */
+  .navbar {
+    background-color: #198c1a;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px; /* Space between items */
+    font-size: 1.1em; /* Font size */
+    padding: 10px 15px; /* Add padding */
+    transition: background-color 0.3s ease;
+    font-weight: bold; /* Smooth transition for hover effect */
+  }
+  /* Hover Effect */
+  .navbar a:hover {
+    background-color: #4caf50; /* Change background color on hover */
+    border-radius: 5px; /* Rounded corners */
+    color: white; /* Text color on hover */
+  }
